@@ -1,0 +1,56 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51971658479@s.whatsapp.net',
+    fromMe: false,
+    id: '7416508913C96A86A08EF16D89BD32DD',
+    participant: undefined
+  },
+  messageTimestamp: 1717310441,
+  pushName: 'Chris.',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '51971658479'
+}
+Error en sendProviderAndSave (ID ans_87cdc70d-c920-4f45-9726-ae580ecb7dff): ChatGPTError: OpenAI error 429: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+    at Promise.then.promptTokens (file:///E:/Proyectos/base-baileys-memory/node_modules/chatgpt/build/index.js:307:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  statusCode: 429,
+  statusText: 'Too Many Requests',
+  [cause]: Response {
+    [Symbol(realm)]: null,
+    [Symbol(state)]: {
+      aborted: false,
+      rangeRequested: false,
+      timingAllowPassed: true,
+      requestIncludesCredentials: true,
+      type: 'default',
+      status: 429,
+      timingInfo: [Object],
+      cacheState: '',
+      statusText: 'Too Many Requests',
+      headersList: [HeadersList],
+      urlList: [Array],
+      body: [Object]
+    },
+    [Symbol(headers)]: HeadersList {
+      cookies: [Array],
+      [Symbol(headers map)]: [Map],
+      [Symbol(headers map sorted)]: null
+    }
+  }
+}
