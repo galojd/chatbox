@@ -1,5 +1,4 @@
 const axios = require('axios');
-const asdasd = process.env.BASE_URL;
 
 const HttpClient = axios.create({
   baseURL: process.env.BASE_URL,
