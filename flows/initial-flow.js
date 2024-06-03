@@ -16,7 +16,7 @@ const flowBienvenida = addKeyword(EVENTS.WELCOME).addAnswer(
 
         if (!user) return await flowDynamic("Usted no esta registrado, adios");
 
-        await state.update({ user: "Marco Cuenca" });
+        await state.update({ user: user.nombreCompleto });
 
         return gotoFlow(flowBotIA);
     },
