@@ -18,23 +18,20 @@ const flowBotIA = addKeyword("CHAT_BOT_IA_CHATGPT", {
     .addAction(async (_, { flowDynamic, state }) => {
         const data = await getPrompt();
 
+        data.replace(/{cliente}/g, state.get("user"));
+
         await chatGPT.handleMsgChatGPT(data);
-
-        const textFromAI = await chatGPT.handleMsgChatGPT(
-            `cliente="${state.get("user")}"`
-        );
-
-        await flowDynamic(textFromAI.text);
     })
     .addAnswer(
         `¿Que te interesa?`,
         { capture: true },
         async (ctx, { fallBack, gotoFlow }) => {
-            const textFromAI = await chatGPT.handleMsgChatGPT(ctx.body);
-
             if (ctx.body.toLowerCase() == 'reporte') {
                 return gotoFlow(flowReporteSelecionar);
             }
+
+            const textFromAI = await chatGPT.handleMsgChatGPT(ctx.body);
+
             return fallBack(textFromAI.text);
         },
         [flowReporteSelecionar]
