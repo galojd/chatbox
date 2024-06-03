@@ -10,14 +10,13 @@ const flowBienvenida = addKeyword(EVENTS.WELCOME).addAnswer(
             "Espere un momento por favor, vamos a verificar que usted sea un usuario ..."
         );
 
-        // const users = await InventarioApi.obtenerUsuarios();
+        const users = await InventarioApi.obtenerUsuarios();
 
-        // const user = users.find((row) => `51${row.phoneNumber}` == ctx.from);
+        const user = users.find((row) => `51${row.phoneNumber}` == ctx.from);
 
-        // if (!user) return await flowDynamic("Usted no esta registrado, adios");
+        if (!user) return await flowDynamic("Usted no esta registrado, adios");
 
-        // await state.update({ user: user.nombreCompleto });
-        await state.update({ user: 'Marco' });
+        await state.update({ user: user.nombreCompleto });
 
         return gotoFlow(flowBotIA);
     },

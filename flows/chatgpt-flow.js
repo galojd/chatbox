@@ -27,10 +27,14 @@ const flowBotIA = addKeyword("CHAT_BOT_IA_CHATGPT", {
         await flowDynamic(textFromAI.text);
     })
     .addAnswer(
-        `¿Te interesa?`,
+        `¿Que te interesa?`,
         { capture: true },
-        async (ctx, { fallBack }) => {
+        async (ctx, { fallBack, gotoFlow }) => {
             const textFromAI = await chatGPT.handleMsgChatGPT(ctx.body);
+
+            if (ctx.body.toLowerCase() == 'reporte') {
+                return gotoFlow(flowReporteSelecionar);
+            }
             return fallBack(textFromAI.text);
         },
         [flowReporteSelecionar]

@@ -2,16 +2,14 @@ const { flujoFinal } = require("./final-flow");
 const { InventarioApi } = require("../api/inventario-api");
 const { addKeyword } = require("@bot-whatsapp/bot");
 
-const flowReporteSelecionar = addKeyword("reporte", {
-    sensitive: true,
-})
+const flowReporteSelecionar = addKeyword("reporte_chat_bot")
     .addAnswer([
         "Que reporte te interesa?",
         "a continuación te envio los tipos de reportes: (Marque 1 o 2)",
         "1. Reporte producto \n2. Reporte stock",
     ])
     .addAction(
-        { capture: true, idle: 25000 },
+        { capture: true, idle: 10000 },
         async (ctx, { flowDynamic, gotoFlow }) => {
             if (ctx?.idleFallBack) {
                 return gotoFlow(flujoFinal);
