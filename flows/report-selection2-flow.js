@@ -1,9 +1,8 @@
-const { flujoFinal } = require("./final-flow");
 const { InventarioApi } = require("../api/inventario-api");
 const { addKeyword } = require("@bot-whatsapp/bot");
-const { flowdesicion1 } = require("./desicion1-flow");
+const { flowdesicion2 } = require("./desicion2-flow");
 
-const flowReporteSelecionar = addKeyword("reporte_chat_bot")
+const flowReporteSelecionar2 = addKeyword("reporte_chat_bot2")
   .addAnswer([
     "Que reporte te interesa?",
     "a continuación te envio los tipos de reportes: (Marque 1 o 2)",
@@ -13,7 +12,7 @@ const flowReporteSelecionar = addKeyword("reporte_chat_bot")
     { capture: true, idle: 10000 },
     async (ctx, { flowDynamic, gotoFlow }) => {
       if (ctx?.idleFallBack) {
-        return gotoFlow(flujoFinal);
+        return gotoFlow(flowdesicion2);
       }
 
       let outputFilePath;
@@ -37,7 +36,7 @@ const flowReporteSelecionar = addKeyword("reporte_chat_bot")
 
       if (outputFilePath) {
         await flowDynamic([{ body: "Su PDF", media: outputFilePath }]);
-        return gotoFlow(flujoFinal);       
+        return gotoFlow(flowdesicion2);       
       } else {
         await flowDynamic(
           "Hubo un problema al generar el reporte. Por favor, intenta de nuevo."
@@ -46,4 +45,4 @@ const flowReporteSelecionar = addKeyword("reporte_chat_bot")
     },
   );
 
-module.exports = { flowReporteSelecionar };
+module.exports = { flowReporteSelecionar2 };
