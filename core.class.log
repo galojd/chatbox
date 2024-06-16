@@ -1,26 +1,26 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '51971658479@s.whatsapp.net',
+    remoteJid: '51957313422@s.whatsapp.net',
     fromMe: false,
-    id: '5920DDC413B081C7D5C79D6E1BA9FEAD',
+    id: 'B42561AF188DEA2BFAC5836D6AA61B96',
     participant: undefined
   },
-  messageTimestamp: 1718144677,
-  pushName: 'Chris.',
+  messageTimestamp: 1718503834,
+  pushName: 'Maria Cuenca',
   broadcast: false,
   message: Message {
-    conversation: '.',
+    conversation: 'H',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '.',
-  from: '51971658479'
+  body: 'H',
+  from: '51957313422'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_76e8bc58-452d-454c-aa4f-b4db2a993767',
-  keyword: 'key_07c5d1c0-bf6a-4ae4-b30d-46ae1a0558f2',
+  ref: 'ans_36649e47-7659-403a-a579-a7434b6d4538',
+  keyword: 'key_b263b7f1-ad04-46cc-9e95-f0335f5884ea',
   answer: 'Bienvenido a este chatbot!',
   options: {
     media: null,
@@ -30,41 +30,139 @@
     delay: 0,
     idle: null,
     ref: null,
-    nested: [ [Object], [Object] ],
+    nested: [ [Object], [Object], [Object] ],
     keyword: {},
     callback: true
   },
-  refSerialize: '6e4767e94e17f1c2cd174e9fc048ce4c'
+  refSerialize: '6af69a750365cd42036c0da53a94ead4'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51971658479@s.whatsapp.net',
+    remoteJid: '51957313422@s.whatsapp.net',
     fromMe: false,
-    id: 'FAA65942B8B3ABA5876AD8E154C96C3A',
+    id: '6C0A828814866BA671158AD9E2136006',
     participant: undefined
   },
-  messageTimestamp: 1718144684,
-  pushName: 'Chris.',
+  messageTimestamp: 1718503843,
+  pushName: 'Maria Cuenca',
   broadcast: false,
   message: Message {
-    conversation: 'Reporte',
+    conversation: 'Solicito',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Reporte',
-  from: '51971658479'
+  body: 'Solicito',
+  from: '51957313422'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51971658479@s.whatsapp.net',
+    remoteJid: '51957313422@s.whatsapp.net',
     fromMe: false,
-    id: '432EE140D5B7BDE71664F94B285321DE',
+    id: '2523DC2FD29579D636A2CF13B22E9134',
     participant: undefined
   },
-  messageTimestamp: 1718144686,
-  pushName: 'Chris.',
+  messageTimestamp: 1718503850,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    conversation: 'T',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'T',
+  from: '51957313422'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: '66EE56DE37039C1E9B66717441CEBC8F',
+    participant: undefined
+  },
+  messageTimestamp: 1718503901,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    conversation: 'RTX AM4 Elite',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'RTX AM4 Elite',
+  from: '51957313422'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: '25C6E43AA681B1B509ED31F5328643BB',
+    participant: undefined
+  },
+  messageTimestamp: 1718503921,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    conversation: 'H',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'H',
+  from: '51957313422'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_36649e47-7659-403a-a579-a7434b6d4538',
+  keyword: 'key_b263b7f1-ad04-46cc-9e95-f0335f5884ea',
+  answer: 'Bienvenido a este chatbot!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object] ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '6af69a750365cd42036c0da53a94ead4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: 'B9776C0D6BFE79C7C364C11A3A358CA4',
+    participant: undefined
+  },
+  messageTimestamp: 1718503930,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    conversation: 'Solicito',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Solicito',
+  from: '51957313422'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: 'E2A913E4EDBC0D2AD7FF42CEF77A0F94',
+    participant: undefined
+  },
+  messageTimestamp: 1718503945,
+  pushName: 'Maria Cuenca',
   broadcast: false,
   message: Message {
     conversation: '2',
@@ -74,137 +172,5 @@
     }
   },
   body: '2',
-  from: '51971658479'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51947382150@s.whatsapp.net',
-    fromMe: false,
-    id: '0E84B96306E6D01D6D3B1FB7F99912F7',
-    participant: undefined
-  },
-  messageTimestamp: 1718147791,
-  pushName: 'Fabrizio',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Hola',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola',
-  from: '51947382150'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51947382150@s.whatsapp.net',
-    fromMe: false,
-    id: '8CBEE70EDFA1146984C0CAD05F8454B1',
-    participant: undefined
-  },
-  messageTimestamp: 1718147792,
-  pushName: 'Fabrizio',
-  broadcast: false,
-  message: Message {
-    protocolMessage: ProtocolMessage {
-      key: [MessageKey],
-      type: 4,
-      ephemeralExpiration: 7776000,
-      ephemeralSettingTimestamp: [Long],
-      disappearingMode: [DisappearingMode]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '',
-  from: '51947382150'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_76e8bc58-452d-454c-aa4f-b4db2a993767',
-  keyword: 'key_07c5d1c0-bf6a-4ae4-b30d-46ae1a0558f2',
-  answer: 'Bienvenido a este chatbot!',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [ [Object], [Object] ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '6e4767e94e17f1c2cd174e9fc048ce4c'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51947382150@s.whatsapp.net',
-    fromMe: false,
-    id: '9C8B24E22FF19BC34391CFC54362AE1E',
-    participant: undefined
-  },
-  messageTimestamp: 1718148184,
-  pushName: 'Fabrizio',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'kfoq7',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'kfoq7',
-  from: '51947382150'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51969432992@s.whatsapp.net',
-    fromMe: false,
-    id: '3AF427A51FE3EC240310',
-    participant: undefined
-  },
-  messageTimestamp: 1718151425,
-  pushName: 'Gean',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: 'Hola', contextInfo: [ContextInfo] },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola',
-  from: '51969432992'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_76e8bc58-452d-454c-aa4f-b4db2a993767',
-  keyword: 'key_07c5d1c0-bf6a-4ae4-b30d-46ae1a0558f2',
-  answer: 'Bienvenido a este chatbot!',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [ [Object], [Object] ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '6e4767e94e17f1c2cd174e9fc048ce4c'
+  from: '51957313422'
 }
