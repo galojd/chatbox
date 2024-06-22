@@ -11,6 +11,7 @@ const flowReporteSelecionar = addKeyword("reporte_chat_bot")
     "estos son los tipos de reportes disponibles: (Marque 1 , 2 o 3)",
     "1. Reporte producto \n2. Reporte stock \n3. Reporte de solo Productos con bajo stock",
   ])
+  .addAnswer("Si desea terminar la conversación escriba 'finalizar'")
   .addAction(
     { capture: true, idle: 10000 },
     async (ctx, { flowDynamic, gotoFlow }) => {
@@ -27,12 +28,15 @@ const flowReporteSelecionar = addKeyword("reporte_chat_bot")
             await flowDynamic(`Su producto '${userInput}' tiene '${productos.comentario}'.`);
             await flowDynamic(`el umbral minimo es '${productos.stockMinimo}' y tiene el total de '${productos.stocktotal}' cantidad de productos.`);
             return gotoFlow(flujoFinal);
-          } else {
+          }if(ctx.body === "finalizar"){
+            return gotoFlow(flujoFinal);
+          }else {
             await flowDynamic("No se encontró el producto. Por favor, intenta de nuevo.");
             await flowDynamic("ingrese el nombre del producto o las opciones");
             await flowDynamic("1. Reporte producto");
             await flowDynamic("2. Reporte stock");
             await flowDynamic("3. Reporte de solo Productos con bajo stock");
+            await flowDynamic("Si desea terminar la conversación escriba 'finalizar'");
             return; 
           }
         } catch (error) {
