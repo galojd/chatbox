@@ -1,6 +1,20 @@
+# dependencies
 node_modules
+
+# IDE
+.vscode
+
+# build
+dist
+out
+
+# logs
+*.log
+
+# local environment
 .env
 bot_sessions
+
+# packages
 yarn.lock
 bot.qr.png
-dist
