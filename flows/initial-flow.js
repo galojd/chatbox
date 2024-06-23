@@ -20,11 +20,10 @@ const flowBienvenida = addKeyword(EVENTS.WELCOME).addAnswer(
       const user = users.find((row) => `51${row.phoneNumber}` == ctx.from);
 
       if (!user) return await flowDynamic("Usted no esta registrado, adios");
-      await state.update({ user: user.nombreCompleto });
+      await state.update({ user: user.username });
       return gotoFlow(flowintermedio);
     } catch (error) {
         await flowDynamic("No se pudo realizar la busqueda, vuelva a intentarlo mas tarde");
-        await state.update({ errorConexion: true });
         return;
     }
   },

@@ -2,15 +2,15 @@
   key: {
     remoteJid: '51957313422@s.whatsapp.net',
     fromMe: false,
-    id: '3EB04EBD88F25C6E577158',
+    id: '3EB09012AFD89C9EDCF150',
     participant: undefined
   },
-  messageTimestamp: 1719017256,
+  messageTimestamp: 1719120206,
   pushName: 'Maria Cuenca',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'hola',
+      text: 'a',
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
     },
@@ -19,12 +19,12 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'hola',
+  body: 'a',
   from: '51957313422'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1ca4c730-527a-493a-8391-477bc8aaa6e8',
-  keyword: 'key_ee45ac84-73dd-4f04-abda-71944e40cae8',
+  ref: 'ans_b689f9a8-42a1-49d6-93d9-6e5adb81a0e3',
+  keyword: 'key_e0bd4b39-e426-46a4-a6cb-3f4e72c3fc59',
   answer: 'Bienvenido a este chatbot!',
   options: {
     media: null,
@@ -38,16 +38,16 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'd6eff6369277645697f1f1e79db35966'
+  refSerialize: '7197ae01b0823fc69c82640712777b36'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '51957313422@s.whatsapp.net',
     fromMe: false,
-    id: '3EB02FED1EF133A86950C2',
+    id: '3EB0A5B2208396C41B3AA7',
     participant: undefined
   },
-  messageTimestamp: 1719017265,
+  messageTimestamp: 1719120229,
   pushName: 'Maria Cuenca',
   broadcast: false,
   message: Message {
@@ -68,15 +68,15 @@
   key: {
     remoteJid: '51957313422@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0E8EE6ED0C390EB4C35',
+    id: '3EB07D7B7A54D980C1C5F1',
     participant: undefined
   },
-  messageTimestamp: 1719017285,
+  messageTimestamp: 1719120242,
   pushName: 'Maria Cuenca',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'das',
+      text: '2',
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
     },
@@ -85,22 +85,22 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'das',
+  body: '2',
   from: '51957313422'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '51957313422@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0E573717B62CB4074CF',
+    id: '3EB078C49CE55A3EC0D52E',
     participant: undefined
   },
-  messageTimestamp: 1719017294,
+  messageTimestamp: 1719120644,
   pushName: 'Maria Cuenca',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'finalizar',
+      text: 'as',
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
     },
@@ -109,6 +109,338 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'finalizar',
+  body: 'as',
+  from: '51957313422'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b689f9a8-42a1-49d6-93d9-6e5adb81a0e3',
+  keyword: 'key_e0bd4b39-e426-46a4-a6cb-3f4e72c3fc59',
+  answer: 'Bienvenido a este chatbot!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object] ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7197ae01b0823fc69c82640712777b36'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0FBDFD104F8A984755C',
+    participant: undefined
+  },
+  messageTimestamp: 1719120667,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'producto',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'producto',
+  from: '51957313422'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB006F3E12B56DECF81AC',
+    participant: undefined
+  },
+  messageTimestamp: 1719120672,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'RAM AM4 Pro',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'RAM AM4 Pro',
+  from: '51957313422'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C67D6D899F9450D55C',
+    participant: undefined
+  },
+  messageTimestamp: 1719120685,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 's',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 's',
+  from: '51957313422'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b689f9a8-42a1-49d6-93d9-6e5adb81a0e3',
+  keyword: 'key_e0bd4b39-e426-46a4-a6cb-3f4e72c3fc59',
+  answer: 'Bienvenido a este chatbot!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object] ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7197ae01b0823fc69c82640712777b36'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03E6C23052950919BBA',
+    participant: undefined
+  },
+  messageTimestamp: 1719120702,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'solicito',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'solicito',
+  from: '51957313422'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB02059D45BACF5A38A4B',
+    participant: undefined
+  },
+  messageTimestamp: 1719120725,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '51957313422'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: '85C1112469AC3434F6C0333D25604DF8',
+    participant: undefined
+  },
+  messageTimestamp: 1719120823,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    conversation: 'R',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'R',
+  from: '51957313422'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b689f9a8-42a1-49d6-93d9-6e5adb81a0e3',
+  keyword: 'key_e0bd4b39-e426-46a4-a6cb-3f4e72c3fc59',
+  answer: 'Bienvenido a este chatbot!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object] ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7197ae01b0823fc69c82640712777b36'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: 'C6C5FF6D288D4163D1DC5EE375B6FFDE',
+    participant: undefined
+  },
+  messageTimestamp: 1719120851,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    conversation: 'Solicito',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Solicito',
+  from: '51957313422'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: 'FE961E70CE636CAACB67EFC34A1406C4',
+    participant: undefined
+  },
+  messageTimestamp: 1719120871,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '51957313422'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: 'C9BF5451DEA327EDF2053B3A2729A432',
+    participant: undefined
+  },
+  messageTimestamp: 1719120876,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    conversation: 'H',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'H',
+  from: '51957313422'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b689f9a8-42a1-49d6-93d9-6e5adb81a0e3',
+  keyword: 'key_e0bd4b39-e426-46a4-a6cb-3f4e72c3fc59',
+  answer: 'Bienvenido a este chatbot!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object] ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7197ae01b0823fc69c82640712777b36'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: 'AF706D12CF137089E0B43E0CAF2F54C5',
+    participant: undefined
+  },
+  messageTimestamp: 1719120895,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    conversation: 'Producto',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Producto',
+  from: '51957313422'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: '9B419340705120CE60F27704E8E88CEA',
+    participant: undefined
+  },
+  messageTimestamp: 1719120917,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    conversation: 'Rf',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Rf',
+  from: '51957313422'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957313422@s.whatsapp.net',
+    fromMe: false,
+    id: '876F9CAD16466E7756CCCE9E197F3625',
+    participant: undefined
+  },
+  messageTimestamp: 1719120931,
+  pushName: 'Maria Cuenca',
+  broadcast: false,
+  message: Message {
+    conversation: 'Finalizar',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Finalizar',
   from: '51957313422'
 }
