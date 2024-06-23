@@ -3,3 +3,4 @@ node_modules
 bot_sessions
 yarn.lock
 bot.qr.png
+dist

@@ -1,26 +1,30 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '51986036791@s.whatsapp.net',
+    remoteJid: '51957313422@s.whatsapp.net',
     fromMe: false,
-    id: '549AF29698FDEF47E26B2CEC7D4045D2',
+    id: '3EB04EBD88F25C6E577158',
     participant: undefined
   },
-  messageTimestamp: 1717444303,
-  pushName: 'Marco',
+  messageTimestamp: 1719017256,
+  pushName: 'Maria Cuenca',
   broadcast: false,
   message: Message {
-    conversation: 'Quisiera una',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Quisiera una',
-  from: '51986036791'
+  body: 'hola',
+  from: '51957313422'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0b3c1a56-4524-4e3b-8d21-a96aa6112f27',
-  keyword: 'key_fcef2cb6-d1d8-48dd-9204-a358e0b03d16',
+  ref: 'ans_1ca4c730-527a-493a-8391-477bc8aaa6e8',
+  keyword: 'key_ee45ac84-73dd-4f04-abda-71944e40cae8',
   answer: 'Bienvenido a este chatbot!',
   options: {
     media: null,
@@ -34,125 +38,77 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'f307e03ab5cbf35287b53bb702818e9d'
+  refSerialize: 'd6eff6369277645697f1f1e79db35966'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51986036791@s.whatsapp.net',
+    remoteJid: '51957313422@s.whatsapp.net',
     fromMe: false,
-    id: '24D0BBDC801AEE2C71B54D80CE04BF61',
+    id: '3EB02FED1EF133A86950C2',
     participant: undefined
   },
-  messageTimestamp: 1717444320,
-  pushName: 'Marco',
+  messageTimestamp: 1719017265,
+  pushName: 'Maria Cuenca',
   broadcast: false,
   message: Message {
-    conversation: 'Hola que tal quisiera saber que tareas relaizas',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'solicito',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hola que tal quisiera saber que tareas relaizas',
-  from: '51986036791'
+  body: 'solicito',
+  from: '51957313422'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51986036791@s.whatsapp.net',
+    remoteJid: '51957313422@s.whatsapp.net',
     fromMe: false,
-    id: '6104D46E11A919B8909423D83F77CBA9',
+    id: '3EB0E8EE6ED0C390EB4C35',
     participant: undefined
   },
-  messageTimestamp: 1717444333,
-  pushName: 'Marco',
+  messageTimestamp: 1719017285,
+  pushName: 'Maria Cuenca',
   broadcast: false,
   message: Message {
-    conversation: 'Quisiera un reporte',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'das',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Quisiera un reporte',
-  from: '51986036791'
+  body: 'das',
+  from: '51957313422'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51986036791@s.whatsapp.net',
+    remoteJid: '51957313422@s.whatsapp.net',
     fromMe: false,
-    id: '6513D1FF4EBB7ABD7CF2A747B314B339',
+    id: '3EB0E573717B62CB4074CF',
     participant: undefined
   },
-  messageTimestamp: 1717444349,
-  pushName: 'Marco',
+  messageTimestamp: 1719017294,
+  pushName: 'Maria Cuenca',
   broadcast: false,
   message: Message {
-    conversation: 'Pero no tienes info más clara?',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'finalizar',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Pero no tienes info más clara?',
-  from: '51986036791'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51986036791@s.whatsapp.net',
-    fromMe: false,
-    id: 'A1C46E28D4B3F8D677A5A0A2925C9AEB',
-    participant: undefined
-  },
-  messageTimestamp: 1717444361,
-  pushName: 'Marco',
-  broadcast: false,
-  message: Message {
-    conversation: 'Quisiera el reporte de stock',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Quisiera el reporte de stock',
-  from: '51986036791'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51986036791@s.whatsapp.net',
-    fromMe: false,
-    id: 'A7A290D336E0B5DBEDEE7439D42B6CC6',
-    participant: undefined
-  },
-  messageTimestamp: 1717444375,
-  pushName: 'Marco',
-  broadcast: false,
-  message: Message {
-    conversation: 'Reporte',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Reporte',
-  from: '51986036791'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51986036791@s.whatsapp.net',
-    fromMe: false,
-    id: '5694776F6E84835F1F701B07B459968E',
-    participant: undefined
-  },
-  messageTimestamp: 1717444378,
-  pushName: 'Marco',
-  broadcast: false,
-  message: Message {
-    conversation: '1',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '1',
-  from: '51986036791'
+  body: 'finalizar',
+  from: '51957313422'
 }

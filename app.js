@@ -12,6 +12,7 @@ const BaileysProvider = require("@bot-whatsapp/provider/baileys");
 const MockAdapter = require("@bot-whatsapp/database/mock");
 
 const { flowBienvenida } = require("./flows/initial-flow");
+const bot = require("@bot-whatsapp/bot");
 
 const main = async () => {
   const adapterDB = new MockAdapter();
