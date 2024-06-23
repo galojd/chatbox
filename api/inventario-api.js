@@ -45,6 +45,33 @@ class InventarioApi {
 
     return response?.data || [];
   }
+
+  static async obtenerProducto(param) {
+    const { getProductos } = endpoints;
+
+    const response = await HttpClient.request(getProductos(param));
+
+    return response?.data || [];
+  }
+
+  static async obtenerProductoBajo() {
+    const outputFilePath = path.resolve(__dirname, 'reporte-bajo.xlsx');
+    const writer = fs.createWriteStream(outputFilePath);
+
+    const { getReporteBajoProducto } = endpoints;
+
+    await HttpClient.request(getReporteBajoProducto())
+        .then(({ data }) => {
+          data.pipe(writer); 
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+
+    return outputFilePath;
+  }
 }
+
+
 
 module.exports = { InventarioApi }

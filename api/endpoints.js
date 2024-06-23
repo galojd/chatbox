@@ -29,6 +29,33 @@ const endpoints = {
     };
   },
 
+  getReporteBajoProducto: () => {
+    const cancelSource = axios.CancelToken.source();
+
+    return {
+      url: `Reporte/Reporte-bajo-excel`,
+      method: "get",
+      headers: {
+        "Content-Type": "application/json; charset=utf8",
+      },
+      cancelToken: cancelSource.token,
+      responseType: "stream",
+    };
+  },
+
+  getProductos: (param) => {
+    const cancelSource = axios.CancelToken.source();
+
+    return {
+      url: `Reporte/consultaproducto/${param}`,
+      method: "get",
+      headers: {
+        "Content-Type": "application/json; charset=utf8",
+      },
+      cancelToken: cancelSource.token
+    };
+  },
+
   getUsers: () => {
     const cancelSource = axios.CancelToken.source();
 
