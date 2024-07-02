@@ -1,4 +1,4 @@
-import { Entity, PrimaryColumn, Column, PrimaryGeneratedColumn } from 'typeorm'
+import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm'
 
 @Entity({ name: 'ChatCompletion' })
 export class ChatCompletion {
@@ -18,7 +18,7 @@ export class ChatCompletion {
   role: string
 
   @Column()
-  usuario: number
+  usuario: string
 
   @Column('text')
   content: string
